@@ -1,0 +1,27 @@
+body {
+	background: rgb(245, 245, 245);
+}
+
+.thumbnail img {
+	width: 100%;
+}
+
+.thumbnail{
+	padding: 0;
+}
+
+.thumbnail .caption-full {
+	padding: 9px;
+}
+
+#deleteCamp{
+	display: inline;
+}
+
+#delete-form{
+	display: inline;
+}
+#subscribe{
+    padding-left: 30rem;
+	
+}
