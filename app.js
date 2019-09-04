@@ -19,6 +19,7 @@ var commentRoutes    = require("./routes/comments"),
   console.log(process.env.DATABASEURL);
 mongoose.connect(process.env.DATABASEURL, {useNewUrlParser: true});
 
+// com as environments variables fizemos isso aqui embaixo virar isso ^^^
 //===========CONFIG mongoose.connect antigas==========
 //mongoose.connect("mongodb://localhost:27017/yelp_camp", {useNewUrlParser: true});
 // mongoose.connect("mongodb+srv://Guilhermo:Ben10123@cluster0-t4dr0.mongodb.net/test?retryWrites=true&w=majority", {useNewUrlParser: true, useCreateIndex: true}).then(() => {
